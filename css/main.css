@@ -1,2 +1,39 @@
 @charset "UTF-8";
 
+@font-face {
+	font-family: 'arvo';
+	src: url('../fonts/Arvo/Arvo-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karla';
+	src: url('../fonts/Karla/Karla-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font-family: 'arvo', sans-serif;
+	font-size: 45px;
+}
+
+p {
+	font-family: 'karla', sans-serif;
+}
+
+h2 {
+	font-family: 'arvo', sans-serif;
+	font-size: 30px;
+}
+
+
+#why-muskoka {
+	padding:20px;
+}
+
+#Logo {
+	
+}
+
