@@ -14,6 +14,19 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'arvoItalic';
+	src: url('../fonts/Arvo/Arvo-Italic.ttf') format('truetype');
+	font-weight: italic;
+	font-style: normal;
+}
+
+
+body{
+	margin-left: 40px;
+
+}
+
 h1 {
 	font-family: 'arvo', sans-serif;
 	font-size: 45px;
@@ -21,6 +34,7 @@ h1 {
 
 p {
 	font-family: 'karla', sans-serif;
+	line-height: 30px;
 }
 
 h2 {
@@ -28,12 +42,30 @@ h2 {
 	font-size: 30px;
 }
 
+li {
+	font-family: 'karla', sans-serif;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+#weAre {
+	font-family: 'arvoItalic', sans-serif;
+}
 
 #why-muskoka {
 	padding:20px;
 }
 
 #Logo {
-	
+	padding: 20px;
+}
+
+.beerImage {
+	flex-direction: row-reverse;
+	width: 200px;
+	padding: 20px;
+
 }
 
